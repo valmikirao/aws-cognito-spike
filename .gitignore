@@ -1,3 +1,10 @@
+# distribution dir
+dist
+
+##########################
+# Standard node ignores
+##########################
+
 # Logs
 logs
 *.log
