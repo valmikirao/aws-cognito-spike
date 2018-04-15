@@ -3,7 +3,8 @@
 use strict;
 use warnings;
 
-my $md5 = `md5 -q dist/index.js`;
+# try all md5 commands until I get something
+my $md5 = `md5 -q dist/index.js 2> /dev/null` || `md5sum dist/index.js | awk '{print \$1}'`;
 chomp $md5;
 
 open(my $src_landing_fh, '<', 'src/landing.html') or die $!;

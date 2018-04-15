@@ -15,7 +15,11 @@
   "license": "ISC",
   "dependencies": {
     "amazon-cognito-auth-js": "^1.1.8",
+    "aws-sdk": "^2.224.1",
+    "es6-promise": "^4.2.4",
+    "es6-promisify": "^6.0.0",
     "https": "^1.0.0",
+    "isomorphic-fetch": "^2.2.1",
     "node-jose": "^0.11.0",
     "query-string": "^6.0.0",
     "webpack": "^4.5.0",

@@ -1,6 +1,9 @@
 # distribution dir
 dist
 
+# vscode configuration
+.vscode
+
 ##########################
 # Standard node ignores
 ##########################
